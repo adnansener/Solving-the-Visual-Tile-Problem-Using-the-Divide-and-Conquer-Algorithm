@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Solving the Visual Tile Problem Using the Divide and Conquer Algorithm
+        </title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h2>
+            Solving the Visual Tile Problem Using the Divide and Conquer Algorithm
+        </h2>
+
+        <input type="number" id='tableSize' placeholder="Enter Size">
+        <input type="number" id='holeRow' placeholder="Enter Row">
+        <input type="number" id='holeCol' placeholder="Enter Column">
+
+        <button id='firstButton'>
+            Create
+        </button>
+
+        <small class="title">
+            <br>First Note:
+        </small> 
+
+        <small class="contents">
+            You must enter a 2ⁿ size otherwise 16x16 table will be created by default. 
+        </small>
+
+        <small class="title">
+            <br>Second Note:
+        </small>
+
+        <small class="contents">
+            You are not allowed to enter a size larger than 128 otherwise 16x16 table will be created by default.
+        </small>
+
+        <small class="title">
+            <br>Last Note:
+        </small>
+
+        <small class="contents">
+            If you do not enter a valid coordinate, the filled box index will default to (1,1).
+        </small>
+
+        <div id='container'></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

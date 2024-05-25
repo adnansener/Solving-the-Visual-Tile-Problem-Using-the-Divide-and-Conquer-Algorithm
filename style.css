@@ -1,0 +1,30 @@
+.input {
+    border:none;
+    font-size:10px;
+}
+
+.input:focus {
+    outline:none;
+}
+
+h2 {
+    color: black;
+    text-align:left;
+}
+
+.table {
+    background-color: black;
+}
+
+body {
+    background-color: lightblue;
+    color: white;
+}
+
+.title {
+    color:rgb(0, 0, 0);
+}
+
+.contents {
+    color:green;
+}
